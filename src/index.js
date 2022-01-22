@@ -17,3 +17,5 @@ app.get("/users", function (req, res, next) {
 app.listen(3000, () => {
   console.log("RUNNING ON PORT 3000");
 });
+
+module.exports = app;
